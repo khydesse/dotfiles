@@ -20,5 +20,12 @@ qutbrowser - a browser with vim keybindings
 nvim - vim with a better codebase
 ```
 
-## License
+### Task List
+
+- [ ] add .bashrc
+- [ ] split .Xresources
+- [ ] clean up i3 config
+- [ ] clean up configuration.nix
+- [ ] add .bin
+
 [MIT](https://choosealicense.com/licenses/mit/)
