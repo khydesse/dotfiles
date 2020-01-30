@@ -41,6 +41,7 @@
   environment.systemPackages = with pkgs; [
      stow
      git
+     aria2
      neovim
      rxvt_unicode
      mpv
