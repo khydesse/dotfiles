@@ -1,23 +1,29 @@
 
-# My Dotfiles 
+# My Dotfiles
 
-This repo includes dotfiles use on my Nixos Thinkpad X230 laptop
+These are the dotfiles for my Thinkpad X230 running NixOS stable.
 
-## Installation
+These instructions will get you a copy of my dotfiles up and running on your local machine
 
-Use the symlink manager [stow](https://www.gnu.org/software/stow/) to install the dotfiles. .
+### Prerequisites
 
-```bash
-stow dotfiles
+Things you need to install
+
+```
+git
+stow
+i3
+qutebrowser
+nvim
 ```
 
-## What I use
+### Installing
 
-```bash
-i3wm - my wm of choice
-i3status - statusbar generator provided with i3wm
-qutbrowser - a browser with vim keybindings
-nvim - vim with a better codebase
+```
+git clone https://github.com/khydesse/dotfiles
+```
+```
+stow dotfiles
 ```
 
 ### Task List
@@ -28,4 +34,18 @@ nvim - vim with a better codebase
 - [ ] clean up configuration.nix
 - [ ] add .bin
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Authors
+
+* **Mohammad Nihad** - [khydesse](https://github.com/khydesse/)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc<Paste>
+
