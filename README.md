@@ -2,12 +2,11 @@
 # My Dotfiles
 
 These are the dotfiles for my Thinkpad X230 running NixOS stable.
-
 These instructions will get you a copy of my dotfiles up and running on your local machine
 
 ### Prerequisites
 
-Things you need to install
+Things you need to have installed
 
 ```
 git
@@ -17,16 +16,17 @@ qutebrowser
 nvim
 ```
 
-### Installing
+### Installation
 
 ```
 git clone https://github.com/khydesse/dotfiles
 ```
+then simply run
 ```
 stow dotfiles
 ```
 
-### Task List
+## Task List
 
 - [ ] add .bashrc
 - [ ] split .Xresources
@@ -41,11 +41,8 @@ stow dotfiles
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc<Paste>
-
+* Folks over at r/unixporn
