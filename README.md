@@ -1,5 +1,5 @@
 
-#My Dotfiles 
+# My Dotfiles 
 
 This repo includes dotfiles use on my Nixos Thinkpad X230 laptop
 
