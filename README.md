@@ -15,7 +15,7 @@ stow dotfiles
 
 ```bash
 i3wm - my wm of choice
-i3status - the statusline script provided with i3wm
+i3status - statusbar generator provided with i3wm
 qutbrowser - a browser with vim keybindings
 nvim - vim with a better codebase
 ```
