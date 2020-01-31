@@ -11,6 +11,7 @@ Things you need to have installed
 ```
 git
 stow
+urxvt
 i3
 qutebrowser
 nvim
@@ -28,7 +29,6 @@ stow dotfiles
 
 ## Task List
 
-- [ ] add .bashrc
 - [ ] split .Xresources
 - [ ] clean up i3 config
 - [ ] clean up configuration.nix
