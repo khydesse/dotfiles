@@ -74,7 +74,7 @@ set $ws6 "6:VIRT"
 set $ws7 "7:MISC"
 set $ws8 "8:MISC"
 set $ws9 "9:TORRENT"
-set $ws10 "10:NADA-COMMS"
+set $ws10 "10:COMMS"
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -227,5 +227,5 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-bindsym $mod+Shift+w workspace $ws10; exec [ $(qutebrowser --target window https://web.whatsapp.com) = 0 ]
-
+#bindsym $mod+Shift+w workspace $ws10; exec [ $(qutebrowser --target window https://web.whatsapp.com) = 0 ]
+#bindsym $mod+grave exec i3lock-fancy 
