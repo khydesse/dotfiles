@@ -1,22 +1,3 @@
-# /$$   /$$ /$$$$$$ /$$   /$$  /$$$$$$   /$$$$$$           
-#| $$$ | $$|_  $$_/| $$  / $$ /$$__  $$ /$$__  $$          
-#| $$$$| $$  | $$  |  $$/ $$/| $$  \ $$| $$  \__/          
-#| $$ $$ $$  | $$   \  $$$$/ | $$  | $$|  $$$$$$           
-#| $$  $$$$  | $$    >$$  $$ | $$  | $$ \____  $$          
-#| $$\  $$$  | $$   /$$/\  $$| $$  | $$ /$$  \ $$          
-#| $$ \  $$ /$$$$$$| $$  \ $$|  $$$$$$/|  $$$$$$/          
-#|__/  \__/|______/|__/  |__/ \______/  \______/           
-#                                                                                                                    
-#                                                          
-#  /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$  /$$$$$$ 
-# /$$__  $$ /$$__  $$| $$$ | $$| $$_____/|_  $$_/ /$$__  $$
-#| $$  \__/| $$  \ $$| $$$$| $$| $$        | $$  | $$  \__/
-#| $$      | $$  | $$| $$ $$ $$| $$$$$     | $$  | $$ /$$$$
-#| $$      | $$  | $$| $$  $$$$| $$__/     | $$  | $$|_  $$
-#| $$    $$| $$  | $$| $$\  $$$| $$        | $$  | $$  \ $$
-#|  $$$$$$/|  $$$$$$/| $$ \  $$| $$       /$$$$$$|  $$$$$$/
-# \______/  \______/ |__/  \__/|__/      |______/ \______/ 
-
 { config, pkgs, ... }:
 
 {
@@ -50,6 +31,9 @@
      android-file-transfer
      steam-run
      tdesktop
+     zsnes
+     emacs
+     spotify
   ];
   # Services enabled.
   services.xserver.enable = true; # Enable the X11 windowing system.
@@ -62,6 +46,7 @@
   services.tlp.enable = true; # Enable battery saving via TLP.
   services.openssh.enable = true; # Enable SSH.
   services.openssh.passwordAuthentication = false; # Disable ssh password login.  
+  programs.ssh.startAgent = true;
   services.xserver.xkbOptions = "Escape:swapcaps";
   programs.tmux.enable = true;
   programs.adb.enable = true;
