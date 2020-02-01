@@ -5,4 +5,6 @@ set wildmenu
 set lazyredraw
 set showmatch
 set hlsearch
+set cursorline
+set wildmenu
 set incsearch 

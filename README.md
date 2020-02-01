@@ -27,13 +27,6 @@ then simply run
 stow dotfiles
 ```
 
-## Task List
-
-- [ ] split .Xresources
-- [ ] clean up i3 config
-- [ ] clean up configuration.nix
-- [ ] add .bin
-
 ## Authors
 
 * **Mohammad Nihad** - [khydesse](https://github.com/khydesse/)

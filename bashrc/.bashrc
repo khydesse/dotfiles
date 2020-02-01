@@ -100,7 +100,7 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
- PS1='\u@\h:\w [$?]\$ '
+PS1='\u@\h:\w [$?]\$ '
 
  alias rebuild="sudo nixos-rebuild switch --show-trace"
  alias config="nvim dotfiles/nixos/etc/nixos/configuration.nix"
