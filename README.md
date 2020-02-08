@@ -11,10 +11,10 @@ Things you need to have installed
 ```
 git
 stow
-urxvt
-i3
+kitty
+bspwm
 qutebrowser
-nvim
+emacs
 ```
 
 ### Installation

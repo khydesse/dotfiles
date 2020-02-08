@@ -2,4 +2,7 @@
 (urxvtd -q -o -f) &
 (feh --bg-scale ~/.wallpaper) &
 xrdb merge .Xresources
-exec i3
+#exec i3
+kitty &
+sxhkd &
+exec bspwm

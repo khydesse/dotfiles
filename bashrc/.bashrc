@@ -102,7 +102,17 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 PS1='\u@\h:\w [$?]\$ '
 
- alias rebuild="sudo nixos-rebuild switch --show-trace"
- alias config="nvim dotfiles/nixos/etc/nixos/configuration.nix"
- 
+alias rebuild="sudo nixos-rebuild switch --show-trace"
+alias batcap="cat /sys/class/power_supply/BAT0/capacity"
+alias batstat="cat /sys/class/power_supply/BAT0/status"
 shopt -s autocd
+
+batinfo(){
+  cap=$(cat /sys/class/power_supply/BAT*/capacity)
+  if [ $(cat /sys/class/power_supply/BAT*/status) == "Charging" ]
+    then echo "${cap} (Charging)"
+    else echo "${cap}"
+  fi
+}
+
+batinfo && date

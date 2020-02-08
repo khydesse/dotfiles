@@ -1,0 +1,35 @@
+font_family Share Tech Mono
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size 15.0
+window_padding_width 12.0
+
+foreground       #d4cbdb
+foreground_bold  #d4cbdb
+cursor           #d4cbdb
+background       #100b13
+
+color0   #1a131e
+color8   #cbaedd
+
+color1   #241b29
+color9   #89b658
+
+color2   #372b3e
+color10  #e686a7
+
+color3   #52415b
+color11  #82c5b7
+
+color4   #735d80
+color12  #b48c5c
+
+color5   #9881a6
+color13  #6bb1d6
+
+color6   #bcaec6
+color14  #bc90d4
+
+color7   #e6e1e9
+color15  #5c9bbc

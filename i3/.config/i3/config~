@@ -156,7 +156,7 @@ bar {
 #bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
 # Disables titlebar
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 3
 
 # Colors (general)
 # color class           border  backgr  text    indicator
@@ -228,3 +228,4 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 #bindsym $mod+Shift+w workspace $ws10; exec [ $(qutebrowser --target window https://web.whatsapp.com) = 0 ]
+#bindsym $mod+grave exec i3lock-fancy 

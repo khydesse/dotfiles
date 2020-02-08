@@ -22,32 +22,31 @@
      stow
      git
      aria2
-     neovim
-     rxvt_unicode
      mpv
      feh
      qutebrowser
      ntfs3g
      android-file-transfer
      steam-run
-     tdesktop
-     zsnes
      emacs
-     spotify
+     kitty
+     sxhkd
+     dmenu
+     python37Packages.pip
   ];
   # Services enabled.
-  services.xserver.enable = true; # Enable the X11 windowing system.
+  services.xserver.enable = true; # Enable the X11 windowing 
   services.xserver.layout = "us"; # Not really sure what that does tbh.
-  services.xserver.windowManager.i3.enable = true; # Enable i3wm.
+  services.xserver.windowManager.bspwm.enable = true;
   services.xserver.displayManager.startx.enable = true; # Enable startx.
   services.xserver.desktopManager.xterm.enable = false; # Disable xterm.
-  services.xserver.windowManager.i3.package = pkgs.i3-gaps;
   services.xserver.libinput.enable = true; # Enable touchpad support.
   services.tlp.enable = true; # Enable battery saving via TLP.
   services.openssh.enable = true; # Enable SSH.
   services.openssh.passwordAuthentication = false; # Disable ssh password login.  
   programs.ssh.startAgent = true;
   services.xserver.xkbOptions = "Escape:swapcaps";
+  services.emacs.defaultEditor = true;
   programs.tmux.enable = true;
   programs.adb.enable = true;
   programs.light.enable = true;
